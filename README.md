@@ -214,7 +214,7 @@ LogVar 弹幕 API 服务器
 ### 一键部署
 点击以下按钮即可将项目快速部署到 Netlify：
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/huangxd-/danmu_api"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/Syunraii/danmu_api"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
 
 > 默认访问domain：https://{你的部署项目名}.netlify.app
 > > 注意：TOKEN为默认87654321的情况下，可不带{TOKEN}请求，如`https://{你的部署项目名}.netlify.app/api/v2/search/anime?keyword=子夜归`
@@ -227,7 +227,7 @@ LogVar 弹幕 API 服务器
 ## 部署到 腾讯云 edgeone pages
 
 ### 一键部署
-[![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?template=https://github.com/huangxd-/danmu_api&project-name=danmu-api&root-directory=.%2F&env=TOKEN)
+[![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?template=https://github.com/Syunraii/danmu_api&project-name=danmu-api&root-directory=.%2F&env=TOKEN)
 
 > 注意：部署时请在环境变量配置区域填写你的TOKEN值，该变量将用于API服务的身份验证相关功能
 > 
@@ -249,7 +249,7 @@ LogVar 弹幕 API 服务器
 ### 一键部署
 点击以下按钮即可将项目快速部署到 Cloudflare：
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/huangxd-/danmu_api)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Syunraii/danmu_api)
 
 **注意**：请将按钮链接中的 `https://github.com/huangxd-/danmu_api` 替换为你的实际 Git 仓库地址。编辑 `README.md` 并更新链接后，推送到仓库，点击按钮即可自动克隆和部署。
 - **设置环境变量**：部署后，在 Cloudflare 仪表板中：
